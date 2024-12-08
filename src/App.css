@@ -1,0 +1,70 @@
+body{
+display: flex;
+align-items: center;
+justify-content: center;
+min-height: 100vh;  
+background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+}
+
+.maindiv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: linear-gradient(to right bottom, #28ffd2, #00f9b9, #00f39e, #00ec7f, #0be55d);
+  width: auto;
+  height: 500px;
+  border-radius: 50px;
+  padding: 20px;
+  -webkit-box-shadow: -1px 9px 43px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: -1px 9px 43px 3px rgba(0,0,0,0.75);
+  box-shadow: -1px 9px 43px 3px rgba(0,0,0,0.75);
+}
+.navbar{
+  position:fixed;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(11, 246, 203);
+  top: 0;
+  left: 0;
+  display: flex;
+  padding: 1%;
+  align-items: center;
+  justify-content: center;
+
+}
+.navbar h3{
+  color: black;
+  font-size: xx-large;
+}
+.styleadd{
+ font-family: 'Courier New', Courier, monospace;
+ border:solid  black 1px;
+}
+.topheadmain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+
+}
+.hovs{
+  
+  width: 60px;
+  height: 40px;
+  color: greenyellow;
+  transition: ease all 1s;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+}
+.hovs:hover{
+  
+  width: 60px;
+  height: 40px;
+  color: black;
+  transition: ease all 1s;
+  background-color: #00bf72;
+  border: none;
+  border-radius: 20px;
+}
